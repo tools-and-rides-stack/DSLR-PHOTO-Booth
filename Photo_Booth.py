@@ -29,7 +29,7 @@ INPUT_DIR = r"C:\Photo_booth\new_images"
 OUTPUT_DIR = r"C:\Photo_booth\output_folder"
 
 # Frame File:
-FRAME_PATH = r"C:\Photo_booth\Rahmen\example.png"
+FRAME_PATH = r"C:\Photo_booth\frames\example.png"
 
 # Name of both printers:
 PRINTER_1 = "canon_selphy_1"
@@ -223,4 +223,5 @@ try:
            
 
 finally:
+
     win32file.FindCloseChangeNotification(change_handle)
